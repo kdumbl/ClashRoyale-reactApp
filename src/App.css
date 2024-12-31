@@ -6,6 +6,16 @@
   height: 40vmin;
   pointer-events: none;
 }
+.PP{
+  background-color: aquamarine;
+  color:blue;
+}
+
+.PP-text{
+  background-color: #61dafb;
+  color:blue;
+  text-align: right;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -14,7 +24,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0f1625;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
