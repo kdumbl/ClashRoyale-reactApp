@@ -103,6 +103,5 @@ return (
       }
     </div>
   );
-  nice
 
 */
