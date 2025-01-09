@@ -1,4 +1,4 @@
-# Simple Web App
+# Clash Chest Cycle
 
 Fetches data from Clash Royale API
 
