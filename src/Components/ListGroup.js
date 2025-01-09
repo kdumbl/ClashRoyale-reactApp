@@ -1,14 +1,11 @@
-function ListGroup() {
-  let items = ["one", "two", "three"];
-
+function ListGroup({ items }) {
   return (
     <>
-      <h2>Items</h2>
-      {items.length === 0 && <p>No items found</p>}
-
       <ul className="list-group">
         {items.map((item) => (
-          <li key={item}>{item}</li>
+          <li key={item.index} className="list-group-item">
+            {item.index + 1} away from a <b>{item.name}</b>
+          </li>
         ))}
       </ul>
     </>
