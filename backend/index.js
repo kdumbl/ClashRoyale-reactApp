@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-const apiKey = fs.readFileSync("./key.txt").toString();
+const apiKey = fs.readFileSync("./key1.txt").toString();
 
 const express = require("express");
 const app = express();
